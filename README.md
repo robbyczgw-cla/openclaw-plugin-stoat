@@ -73,6 +73,25 @@ You can also set the token via environment variable:
 export STOAT_BOT_TOKEN="your-bot-token"
 ```
 
+## 🏠 Self-Hosted Revolt
+
+Works with self-hosted Revolt instances — all endpoints are fully configurable:
+
+```json
+{
+  "channels": {
+    "stoat": {
+      "token": "YOUR_BOT_TOKEN",
+      "apiBase": "https://your-revolt.example.com/api",
+      "wsBase": "wss://your-revolt.example.com/ws",
+      "autumnBase": "https://your-revolt.example.com/autumn"
+    }
+  }
+}
+```
+
+No hardcoded URLs — point it at any Revolt-compatible server.
+
 ## 🏗️ Architecture
 
 ```
