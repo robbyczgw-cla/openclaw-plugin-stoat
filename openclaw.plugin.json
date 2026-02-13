@@ -1,0 +1,29 @@
+{
+  "id": "stoat",
+  "channels": ["stoat"],
+  "configKey": "stoat",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "enabled": {
+        "type": "boolean",
+        "description": "Enable Stoat channel plugin"
+      },
+      "token": {
+        "type": "string",
+        "description": "Stoat/Revolt bot token (or use STOAT_BOT_TOKEN env var)"
+      },
+      "apiBase": {
+        "type": "string",
+        "description": "Stoat/Revolt REST API base URL",
+        "default": "https://api.revolt.chat"
+      },
+      "wsBase": {
+        "type": "string",
+        "description": "Stoat websocket base URL",
+        "default": "wss://events.stoat.chat"
+      }
+    }
+  }
+}

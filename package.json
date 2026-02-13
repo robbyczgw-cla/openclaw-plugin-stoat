@@ -1,0 +1,25 @@
+{
+  "name": "openclaw-plugin-stoat",
+  "version": "1.0.0",
+  "description": "Stoat (Revolt) channel plugin for OpenClaw — WebSocket + REST hybrid with image support",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "openclaw",
+    "revolt",
+    "stoat",
+    "chat",
+    "bot",
+    "websocket",
+    "plugin"
+  ],
+  "author": "robbyczgw-cla",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robbyczgw-cla/openclaw-plugin-stoat"
+  },
+  "peerDependencies": {
+    "openclaw": ">=2026.2.0"
+  }
+}
