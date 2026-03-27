@@ -14,7 +14,7 @@ The Stoat (Revolt) plugin has been successfully migrated from WebSocket to HTTP 
 
 ### Step 1: Configure Polling Channels
 
-Add polling channels to `/root/.openclaw/openclaw.json` under `channels.stoat`:
+Add polling channels to `~/.openclaw/openclaw.json` under `channels.stoat`:
 
 ```json
 {
@@ -172,4 +172,4 @@ For issues, check:
 1. Gateway logs: `journalctl -u openclaw-gateway`
 2. Plugin manifest: `openclaw.plugin.json`
 3. Plugin code: `index.js` (polling functions)
-4. Configuration: `/root/.openclaw/openclaw.json` (channels.stoat)
+4. Configuration: `~/.openclaw/openclaw.json` (channels.stoat)

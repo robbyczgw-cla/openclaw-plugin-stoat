@@ -110,7 +110,7 @@ Plugin status now includes:
 
 ## Files NOT Modified (per requirements)
 
-- `/root/.openclaw/openclaw.json` — Configuration file untouched
+- `~/.openclaw/openclaw.json` — Configuration file untouched
 - `package.json` — No changes needed
 
 ---
